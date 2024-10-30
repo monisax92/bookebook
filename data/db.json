@@ -1,0 +1,400 @@
+{
+  "products": [
+    {
+      "id": 10001,
+      "name": "React and React Native - Fifth Edition: Build cross-platform JavaScript and TypeScript apps for the web, desktop, and mobile",
+      "overview": "Get a big-picture view of modern React and React Native and see how they go hand-in-hand - covering TypeScript development, Vite, state management strategies, unit testing with Jest, and more.",
+      "long_description": "If you're new to React and looking to become a professional React developer, this book is for you. This updated fifth edition reflects the current state of React, including React framework coverage as well as TypeScript. Part 1 introduces you to React. You'll discover JSX syntax, hooks, functional components, and event handling, learn techniques to fetch data from a server, and tackle the tricky problem of state management. Once you're comfortable with writing React in JavaScript, you'll pick up TypeScript development in later chapters. Part 2 transitions you into React Native for mobile development. React Native goes hand-in-hand with React. With your React knowledge behind you, you'll appreciate where and how React Native differs as you write shared components for Android and iOS apps. You'll learn how to build responsive layouts, use animations, and implement geolocation. By the end of this book, you'll have a big-picture view of React and React Native and be able to build applications with both.",
+      "price": 33.43,
+      "cover": "/assets/images/react_and_react_native.jpg",
+      "rating": 4.9,
+      "in_stock": false,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Node.js Design Patterns - Third edition: Design and implement production-grade Node.js applications using proven patterns and techniques",
+      "overview": "Learn proven patterns, techniques, and tricks to take full advantage of the Node.js platform. Master well-known design principles to create applications that are readable, extensible, and that can grow big.",
+      "long_description": "In this book, we will show you how to implement a series of best practices and design patterns to help you create efficient and robust Node.js applications with ease. We kick off by exploring the basics of Node.js, analyzing its asynchronous event driven architecture and its fundamental design patterns. We then show you how to build asynchronous control flow patterns with callbacks, promises and async/await. Next, we dive into Node.js streams, unveiling their power and showing you how to use them at their full capacity. Following streams is an analysis of different creational, structural, and behavioral design patterns that take full advantage of JavaScript and Node.js. Lastly, the book dives into more advanced concepts such as Universal JavaScript, scalability and messaging patterns to help you build enterprise-grade distributed applications. Throughout the book, you'll see Node.js in action with the help of several real-life examples leveraging technologies such as LevelDB, Redis, RabbitMQ, ZeroMQ, and many others. They will be used to demonstrate a pattern or technique, but they will also give you a great introduction to the Node.js ecosystem and its set of solutions.",
+      "price": 46.74,
+      "cover": "/assets/images/node_design_patterns.jpg",
+      "rating": 3.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10003,
+      "name": "JavaScript from Beginner to Professional: Learn JavaScript quickly by building fun, interactive, and dynamic web apps, games, and pages",
+      "overview": "Start your journey towards becoming a JavaScript developer with the help of more than 100 fun exercises and projects.",
+      "long_description": "This book demonstrates the capabilities of JavaScript for web application development by combining theoretical learning with code exercises and fun projects that you can challenge yourself with. The guiding principle of the book is to show how straightforward JavaScript techniques can be used to make web apps ranging from dynamic websites to simple browser-based games. JavaScript from Beginner to Professional focuses on key programming concepts and DOM (Document Object Model) manipulations that are used to solve common problems in professional web applications. These include data validation, manipulating the appearance of web pages, working with asynchronous and concurrent code, and much more. The book follows project-based learning to provide context for the theoretical components in a series of code examples that can be used as modules of an application, such as input validators, games, and simple animations. This will be supplemented with a brief crash course on HTML and CSS to illustrate how JavaScript components fit into a complete web application. As you learn the concepts, you can try them in your own editor or browser console to get a solid understanding of how they work and what they do. By the end of this JavaScript book, you will feel confident writing core JavaScript code and be equipped to progress to more advanced libraries, frameworks, and environments such as React, Angular, and Node.js.",
+      "price": 30.39,
+      "cover": "/assets/images/javascript_from_beginner_to_professional.jpg",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10004,
+      "name": "You Don't Know JS Yet: Get Started",
+      "overview": "The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.",
+      "long_description": "It seems like there's never been as much widespread desire before for a better way to deeply learn the fundamentals of JavaScript. But with a million blogs, books, and videos out there, just where do you START? Look no further!The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.\"Get Started\" prepares you for the journey ahead, first surveying the language then detailing how the rest of the You Don't Know JS Yet book series guides you to knowing JS more deeply.",
+      "price": 25.2,
+      "cover": "/assets/images/ydkjs_get_started.jpg",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10005,
+      "name": "You Don't Know JS: Types & Grammar ",
+      "overview": "Like other books in this series, You Don’t Know JS: Types & Grammar dives into trickier parts of the language that many JavaScript programmers simply avoid or assume don’t exist (like types). Armed with this knowledge, you can achieve true JavaScript mastery.",
+      "long_description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide explores JavaScript types in greater depth than previous treatments by looking at type coercion problems, demonstrating why types work, and showing you how to take advantage of these features. Like other books in this series, You Don’t Know JS: Types & Grammar dives into trickier parts of the language that many JavaScript programmers simply avoid or assume don’t exist (like types). Armed with this knowledge, you can achieve true JavaScript mastery. ",
+      "price": 24.99,
+      "cover": "/assets/images/ydkjs_types_grammar.jpg",
+      "rating": 5,
+      "in_stock": false,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10006,
+      "name": "You Don't Know JS Yet: Scope & Closures",
+      "overview": "The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.",
+      "long_description": "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes. Yet, most developers haven't deeply contemplated how and why these decisions are made and the impacts on code maintainability.The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.\"Scope & Closures\" examines all aspects of lexical scope, then builds on these principles to leverage the power of closure, and finally digs into the module pattern for better program structure.",
+      "price": 15.99,
+      "cover": "/assets/images/ydkjs_scope_closures.jpg",
+      "rating": 4.2,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10007,
+      "name": "You Don't Know JS: ES6 & Beyond",
+      "overview": "Like other books in this series, You Don’t Know JS: ES6 & Beyond dives into trickier parts of the language that many JavaScript programmers either avoid or know nothing about. Armed with this knowledge, you can achieve true JavaScript mastery.",
+      "long_description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the standard upon which JavaScript is built. Like other books in this series, You Don’t Know JS: ES6 & Beyond dives into trickier parts of the language that many JavaScript programmers either avoid or know nothing about. Armed with this knowledge, you can achieve true JavaScript mastery. ",
+      "price": 15.38,
+      "cover": "/assets/images/ydkjs_es6_beyond.jpg",
+      "rating": 3,
+      "in_stock": false,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "Modern Full-Stack React Projects: Build, maintain, and deploy modern web apps using MongoDB, Express, React, and Node.js",
+      "overview": "Polish your web development skills by working on real-world projects for different use-cases of full-stack web development.",
+      "long_description": "Understanding full-stack development is vital as companies aim to bridge the gap between frontend and backend development. Recent trends show deeper integration between the two, opening numerous possibilities for building real-world web applications, through server-side technologies like Node.js, Express, and MongoDB. Written by the author of Learning Redux and Learn React Hooks, and CEO of TouchLay, Modern Full-Stack React Projects will guide you through the entire process of advancing from a frontend developer to a full-stack developer. Starting with how to set up robust projects that can be maintained for a long time, you'll then progress toward developing a backend system and integrating it with the frontend. Throughout the book, you'll learn how to build, test, and deploy a blog application and a chat application. You'll also explore MongoDB, Express, React, Node.js (MERN) stack, best practices for frontend and backend development, different full-stack architectures, unit and end-to-end testing, and deployment of full-stack web applications. Once you get to grips with the essential concepts, you'll progress to learn how to use Next.js, an enterprise-grade full-stack web framework for React. By the end, you'll be well-versed in the MERN stack and all set to create performant and scalable full-stack web applications. ",
+      "price": 44.99,
+      "cover": "/assets/images/modern_fullstack_react_projects.jpg",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10009,
+      "name": "Programming TypeScript: Making Your JavaScript Applications Scale",
+      "overview": "If you’re a programmer with intermediate JavaScript experience, author Boris Cherny will teach you how to master the TypeScript language. You’ll understand how TypeScript can help you eliminate bugs in your code and enable you to scale your code across more engineers than you could before. ",
+      "long_description": "Any programmer working with a dynamically typed language will tell you how hard it is to scale to more lines of code and more engineers. That’s why Facebook, Google, and Microsoft invented gradual static type layers for their dynamically typed JavaScript and Python code. This practical book shows you how one such type layer, TypeScript, is unique among them: it makes programming fun with its powerful static type system. If you’re a programmer with intermediate JavaScript experience, author Boris Cherny will teach you how to master the TypeScript language. You’ll understand how TypeScript can help you eliminate bugs in your code and enable you to scale your code across more engineers than you could before. ",
+      "price": 30.99,
+      "cover": "/assets/images/programming_typescript.jpg",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10010,
+      "name": "Python Tricks: A Buffet of Awesome Python Features",
+      "overview": "With Python Tricks: The Book you’ll discover Python’s best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative. You'll get one step closer to mastering Python, so you can write beautiful and idiomatic code that comes to you naturally.",
+      "long_description": "With Python Tricks: The Book you’ll discover Python’s best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative. You'll get one step closer to mastering Python, so you can write beautiful and idiomatic code that comes to you naturally. Learning the ins and outs of Python is difficult—and with this book you'll be able to focus on the practical skills that really matter. Discover the “hidden gold” in Python’s standard library and start writing clean and Pythonic code today.",
+      "price": 27.35,
+      "cover": "/assets/images/python_tricks.jpg",
+      "rating": 4.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10011,
+      "name": "CPython Internals: Your Guide to the Python 3 Interpreter",
+      "overview": "This book explains the concepts, ideas, and technicalities of the Python interpreter in an approachable and hands-on fashion.",
+      "long_description": "Get your guided tour through the Python 3.9 interpreter: Unlock the inner workings of the Python language, compile the Python interpreter from source code, and participate in the development of CPython. Are there certain parts of Python that just seem like magic? This book explains the concepts, ideas, and technicalities of the Python interpreter in an approachable and hands-on fashion. Once you see how Python works at the interpreter level, you can optimize your applications and fully leverage the power of Python.",
+      "price": 30.99,
+      "cover": "/assets/images/cpython_internals.jpg",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10012,
+      "name": "The Road to React: Your journey to master plain yet pragmatic React.js ",
+      "overview": "The Road to React: The React.js with Hooks in JavaScript Book (2024 Edition) - is a comprehensive and pragmatic yet concise React 18 with Hooks (+ opt-in TypeScript) book. Purchase of this book includes free online access to the always up-to-date digital book.",
+      "long_description": "\"The Road to React\" made its debut in 2016, and since then, I've almost rewritten it annually. This book teaches the core principles of React, guiding you through building a practical application in pure React without complex tooling. The book covers everything from setting up the project to deploying it on a server. Each chapter includes additional recommended reading and exercises. By the end, you'll have the skills to develop your own React applications. In \"The Road to React,\" I establish a solid foundation before delving into the broader React ecosystem. The book clarifies general concepts, patterns, and best practices for real-world React applications. Ultimately, you'll learn to construct a React application from scratch, incorporating features such as pagination, client-side and server-side searching, and advanced UI interactions like sorting.",
+      "price": 29.99,
+      "cover": "/assets/images/the_road_to_react.jpg",
+      "rating": 3.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10013,
+      "name": "The Road to GraphQL: Your journey to master pragmatic GraphQL in JavaScript with React.js and Node.js",
+      "overview": "The Road to GraphQL is your personal journey to master pragmatic GraphQL in JavaScript. The book is full with applications you are going to build along the way with React.js and Node.js. Afterward, you will be able to implement full-stack JavaScript applications.",
+      "long_description": "I wrote the The Road to GraphQL over the last year, while building several GraphQL applications for my clients and for myself. During this time, I came to understand the practical genius of GraphQL, and how it dramatically improves communication in client-server architectures. Not only does it improve the interface between the client and the server, it also enhances client-side state management by eliminating remote data management. Sophisticated GraphQL libraries like Apollo Client provide powerful features like caching, optimistic UI, and data prefetching for free. This book covers the fundamentals of GraphQL itself, as well as its ecosystem.",
+      "price": 28.63,
+      "cover": "/assets/images/the_road_to_graphql.jpg",
+      "rating": 4.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10014,
+      "name": "Git for Teams: A User-Centered Approach to Creating Efficient Workflows in Git",
+      "overview": "The first part of the book on structuring workflow is useful for project managers, technical team leads, and CTOs. The second part provides hands-on exercises to help developers gain a better understanding of Git commands.",
+      "long_description": "You can do more with Git than just build software. This practical guide delivers a unique people-first approach to version control that also explains how using Git as a focal point can help your team work better together. You’ll learn how to plan and pursue a Git workflow that not only ensures that you accomplish project goals, but also fits the immediate needs and future growth of your team. The first part of the book on structuring workflow is useful for project managers, technical team leads, and CTOs. The second part provides hands-on exercises to help developers gain a better understanding of Git commands.",
+      "price": 49.99,
+      "cover": "/assets/images/git_for_teams.jpg",
+      "rating": 4.4,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10015,
+      "name": "Version Control with Git: Powerful Tools and Techniques for Collaborative Software Development",
+      "overview": "In this third edition, you'll start with the basics and fundamental philosophy of Git, followed by intermediate commands to help you efficiently supplement your daily development workflow. Finally, you'll learn advanced Git commands and concepts to understand how Git works under the hood.",
+      "long_description": "Track, branch, merge, and manage code revisions with Git, the free and open source distributed version control system. Through a series of step-by-step tutorials, this practical guide quickly takes you from Git fundamentals to advanced techniques, and provides friendly yet rigorous advice for navigating Git's many functions. You'll learn how to work with everything from small to very large projects with speed and efficiency. In this third edition, authors Prem Kumar Ponuthorai and Jon Loeliger break down Git concepts using a modular approach. You'll start with the basics and fundamental philosophy of Git, followed by intermediate commands to help you efficiently supplement your daily development workflow. Finally, you'll learn advanced Git commands and concepts to understand how Git works under the hood.",
+      "price": 44.99,
+      "cover": "/assets/images/version_control_with_git.jpg",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10016,
+      "name": "Learning Git: A Hands-On and Visual Guide to the Basics of Git",
+      "overview": "This book teaches Git in a simple, visual, and tangible manner so that you can build a solid mental model of how Git version control works. Through the use of color, storytelling, and hands-on exercises, you will learn to use this tool with confidence.",
+      "long_description": "This book teaches Git in a simple, visual, and tangible manner so that you can build a solid mental model of how Git version control works. Through the use of color, storytelling, and hands-on exercises, you will learn to use this tool with confidence. The information is introduced incrementally so that you don't get bogged down with unknown terms or concepts. Learning Git is ideal for anyone who needs to use Git for personal or professional projects: coding bootcamp students, junior developers, data professionals, and technical writers, to name just a few!",
+      "price": 45.99,
+      "cover": "/assets/images/learning_git.jpg",
+      "rating": 4.8,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10017,
+      "name": "Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics",
+      "overview": "In this book author Thomas Nield guides you through areas like calculus, probability, linear algebra, and statistics and how they apply to techniques like linear regression, logistic regression, and neural networks.",
+      "long_description": "Use Python code and libraries like SymPy, NumPy, and scikit-learn to explore essential mathematical concepts like calculus, linear algebra, statistics, and machine learning. Understand techniques like linear regression, logistic regression, and neural networks in plain English, with minimal mathematical notation and jargon. Perform descriptive statistics and hypothesis testing on a dataset to interpret p-values and statistical significance. Manipulate vectors and matrices and perform matrix decomposition. Integrate and build upon incremental knowledge of calculus, probability, statistics, and linear algebra, and apply it to regression models including neural networks. Navigate practically through a data science career and avoid common pitfalls, assumptions, and biases while tuning your skill set to stand out in the job market.",
+      "price": 42.99,
+      "cover": "/assets/images/essential_math_for_data_science.jpg",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10018,
+      "name": "High Performance Python",
+      "overview": "By exploring the fundamental theory behind design choices, High Performance Python helps you gain a deeper understanding of Python’s implementation.",
+      "long_description": "Your Python code may run correctly, but you need it to run faster. Updated for Python 3, this expanded edition shows you how to locate performance bottlenecks and significantly speed up your code in high-data-volume programs. By exploring the fundamental theory behind design choices, High Performance Python helps you gain a deeper understanding of Python’s implementation. How do you take advantage of multicore architectures or clusters? Or build a system that scales up and down without losing reliability? Experienced Python programmers will learn concrete solutions to many issues, along with war stories from companies that use high-performance Python for social media analytics, productionized machine learning, and more.",
+      "price": 36.49,
+      "cover": "/assets/images/high_performance_python.jpg",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10019,
+      "name": "Fluent Python: Clear, Concise, and Effective Programming",
+      "overview": "Discover and apply idiomatic Python 3 features beyond your past experience. Author Luciano Ramalho guides you through Python's core language features and libraries and teaches you how to make your code shorter, faster, and more readable.",
+      "long_description": "Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has to offer. With the updated edition of this hands-on guide, you'll learn how to write effective, modern Python 3 code by leveraging its best ideas. Discover and apply idiomatic Python 3 features beyond your past experience. Author Luciano Ramalho guides you through Python's core language features and libraries and teaches you how to make your code shorter, faster, and more readable.",
+      "price": 49.99,
+      "cover": "/assets/images/fluent_python.jpg",
+      "rating": 4.4,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10020,
+      "name": "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems",
+      "overview": "In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data.",
+      "long_description": "Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have an overwhelming variety of tools, including relational databases, NoSQL datastores, stream or batch processors, and message brokers. What are the right choices for your application? How do you make sense of all these buzzwords? In this practical and comprehensive guide, author Martin Kleppmann helps you navigate this diverse landscape by examining the pros and cons of various technologies for processing and storing data. Software keeps changing, but the fundamental principles remain the same. With this book, software engineers and architects will learn how to apply those ideas in practice, and how to make full use of data in modern applications.",
+      "price": 55.79,
+      "cover": "/assets/images/designing_data_intensive_applications.jpg",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10021,
+      "name": "JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language",
+      "overview": "This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.",
+      "long_description": "JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the go-to guide for JavaScript programmers. The seventh edition is fully updated to cover the 2020 version of JavaScript, and new chapters cover classes, modules, iterators, generators, Promises, async/await, and metaprogramming. You’ll find illuminating and engaging example code throughout. This book is for programmers who want to learn JavaScript and for web developers who want to take their understanding and mastery to the next level. It begins by explaining the JavaScript language itself, in detail, from the bottom up. It then builds on that foundation to cover the web platform and Node.js.",
+      "price": 48.49,
+      "cover": "/assets/images/javascript_the_definitive_guide.jpg",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10022,
+      "name": "Effective TypeScript: 62 Specific Ways to Improve Your TypeScript",
+      "overview": "This book guides you through 62 specific ways to improve your use of TypeScript.",
+      "long_description": "TypeScript is a typed superset of JavaScript with the potential to solve many of the headaches for which JavaScript is famous. But TypeScript has a learning curve of its own, and understanding how to use it effectively can take time. This book guides you through 62 specific ways to improve your use of TypeScript. Author Dan Vanderkam, a principal software engineer at Sidewalk Labs, shows you how to apply these ideas, following the format popularized by Effective C++ and Effective Java (both from Addison-Wesley). You'll advance from a beginning or intermediate user familiar with the basics to an advanced user who knows how to use the language well. ",
+      "price": 34,
+      "cover": "/assets/images/effective_typescript.jpg",
+      "rating": 4.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10023,
+      "name": "HTML and CSS QuickStart Guide: The Simplified Beginners Guide",
+      "overview": "The same book currently in used in college-level courses while remaining approachable for beginners! Anyone, at any stage of their lives, can learn to code. HTML and CSS are the perfect starting point on that journey—easy to learn, easy to implement, HTML & CSS open the door to a world of coding possibilities.",
+      "long_description": "David’s unique and engaging approach to teaching HTML and CSS principles means that readers are ready to start designing from the very first chapter without enduring an avalanche of boring jargon or dry technobabble. No matter whether you are a student, jobseeker looking to improve your resume, freelancer, designer, experienced developer, or just someone who wants to create their own website from scratch, everything you need to know is right here in this book!",
+      "price": 24.49,
+      "cover": "/assets/images/html_and_css_quickstart_guide.jpg",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10024,
+      "name": "Python QuickStart Guide: The Simplified Beginner's Guide",
+      "overview": "Learn Python fundamentals that can be used in any programming setting – use the guidance in this book to program your own game in a unique and practical Python learning experience.",
+      "long_description": "Distilling his experience drawn from over two decades of working with Python and other programming languages, Robert’s clear voice and writing present a practical, hands-on approach that anyone, at any experience level, can use to become a Python programmer. It doesn’t matter if you are a new or existing programmer, a job seeker looking for a career change or promotion, or just someone who wants to learn how to automate basic tasks with Python—Robert’s step-by-step approach, complete with a hands-on companion Python video game project, is the perfect starting point to master Python fundamentals!",
+      "price": 24.99,
+      "cover": "/assets/images/python_quickstart_guide.jpg",
+      "rating": 1.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10025,
+      "name": "SQL QuickStart Guide: The Simplified Beginner's Guide",
+      "overview": "In this comprehensive guide, experienced mentor and SQL expert Walter Shields draws on his considerable knowledge to make the topic of relational database management accessible, easy to understand, and highly actionable.",
+      "long_description": "Not sure how to prepare for the data-driven future? This book shows you EXACTLY what you need to know to successfully use the SQL programming language to enhance your career! Are you a developer who wants to expand your mastery to database management? Then you NEED this book. Buy now and start reading today! The ubiquity of big data means that now more than ever there is a burning need to warehouse, access, and understand the contents of massive databases quickly and efficiently. That’s where SQL comes in. SQL is the workhorse programming language that forms the backbone of modern data management and interpretation. Any database management professional will tell you that despite trendy data management languages that come and go, SQL remains the most widely used and most reliable to date, with no signs of stopping.",
+      "price": 23.99,
+      "cover": "/assets/images/sql_quickstart_guide.jpg",
+      "rating": 2.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    }
+  ],
+  "featured_products": [
+    {
+      "id": 10005,
+      "name": "You Don't Know JS: Types & Grammar ",
+      "overview": "Like other books in this series, You Don’t Know JS: Types & Grammar dives into trickier parts of the language that many JavaScript programmers simply avoid or assume don’t exist (like types). Armed with this knowledge, you can achieve true JavaScript mastery.",
+      "long_description": "No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \"You Don’t Know JS\" series, this compact guide explores JavaScript types in greater depth than previous treatments by looking at type coercion problems, demonstrating why types work, and showing you how to take advantage of these features. Like other books in this series, You Don’t Know JS: Types & Grammar dives into trickier parts of the language that many JavaScript programmers simply avoid or assume don’t exist (like types). Armed with this knowledge, you can achieve true JavaScript mastery. ",
+      "price": 24.99,
+      "cover": "/assets/images/ydkjs_types_grammar.jpg",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10010,
+      "name": "Python Tricks: A Buffet of Awesome Python Features",
+      "overview": "With Python Tricks: The Book you’ll discover Python’s best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative. You'll get one step closer to mastering Python, so you can write beautiful and idiomatic code that comes to you naturally.",
+      "long_description": "With Python Tricks: The Book you’ll discover Python’s best practices and the power of beautiful & Pythonic code with simple examples and a step-by-step narrative. You'll get one step closer to mastering Python, so you can write beautiful and idiomatic code that comes to you naturally. Learning the ins and outs of Python is difficult—and with this book you'll be able to focus on the practical skills that really matter. Discover the “hidden gold” in Python’s standard library and start writing clean and Pythonic code today.",
+      "price": 27.35,
+      "cover": "/assets/images/python_tricks.jpg",
+      "rating": 4.6,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10012,
+      "name": "The Road to React: Your journey to master plain yet pragmatic React.js ",
+      "overview": "The Road to React: The React.js with Hooks in JavaScript Book (2024 Edition) - is a comprehensive and pragmatic yet concise React 18 with Hooks (+ opt-in TypeScript) book. Purchase of this book includes free online access to the always up-to-date digital book.",
+      "long_description": "\"The Road to React\" made its debut in 2016, and since then, I've almost rewritten it annually. This book teaches the core principles of React, guiding you through building a practical application in pure React without complex tooling. The book covers everything from setting up the project to deploying it on a server. Each chapter includes additional recommended reading and exercises. By the end, you'll have the skills to develop your own React applications. In \"The Road to React,\" I establish a solid foundation before delving into the broader React ecosystem. The book clarifies general concepts, patterns, and best practices for real-world React applications. Ultimately, you'll learn to construct a React application from scratch, incorporating features such as pagination, client-side and server-side searching, and advanced UI interactions like sorting.",
+      "price": 29.99,
+      "cover": "/assets/images/the_road_to_react.jpg",
+      "rating": 3.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    }
+  ],
+  "orders": [
+    {
+      "cartList": [
+        {
+          "id": 10006,
+          "name": "You Don't Know JS Yet: Scope & Closures",
+          "overview": "The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.",
+          "long_description": "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes. Yet, most developers haven't deeply contemplated how and why these decisions are made and the impacts on code maintainability.The worldwide best selling \"You Don't Know JS\" book series is back for a 2nd edition: \"You Don't Know JS Yet\". All 6 books are brand new, rewritten to cover all sides of JS for 2020 and beyond.\"Scope & Closures\" examines all aspects of lexical scope, then builds on these principles to leverage the power of closure, and finally digs into the module pattern for better program structure.",
+          "price": 15.99,
+          "cover": "/assets/images/ydkjs_scope_closures.jpg",
+          "rating": 4.2,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": false
+        },
+        {
+          "id": 10009,
+          "name": "Programming TypeScript: Making Your JavaScript Applications Scale",
+          "overview": "If you’re a programmer with intermediate JavaScript experience, author Boris Cherny will teach you how to master the TypeScript language. You’ll understand how TypeScript can help you eliminate bugs in your code and enable you to scale your code across more engineers than you could before. ",
+          "long_description": "Any programmer working with a dynamically typed language will tell you how hard it is to scale to more lines of code and more engineers. That’s why Facebook, Google, and Microsoft invented gradual static type layers for their dynamically typed JavaScript and Python code. This practical book shows you how one such type layer, TypeScript, is unique among them: it makes programming fun with its powerful static type system. If you’re a programmer with intermediate JavaScript experience, author Boris Cherny will teach you how to master the TypeScript language. You’ll understand how TypeScript can help you eliminate bugs in your code and enable you to scale your code across more engineers than you could before. ",
+          "price": 30.99,
+          "cover": "/assets/images/programming_typescript.jpg",
+          "rating": 4.5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10012,
+          "name": "The Road to React: Your journey to master plain yet pragmatic React.js ",
+          "overview": "The Road to React: The React.js with Hooks in JavaScript Book (2024 Edition) - is a comprehensive and pragmatic yet concise React 18 with Hooks (+ opt-in TypeScript) book. Purchase of this book includes free online access to the always up-to-date digital book.",
+          "long_description": "\"The Road to React\" made its debut in 2016, and since then, I've almost rewritten it annually. This book teaches the core principles of React, guiding you through building a practical application in pure React without complex tooling. The book covers everything from setting up the project to deploying it on a server. Each chapter includes additional recommended reading and exercises. By the end, you'll have the skills to develop your own React applications. In \"The Road to React,\" I establish a solid foundation before delving into the broader React ecosystem. The book clarifies general concepts, patterns, and best practices for real-world React applications. Ultimately, you'll learn to construct a React application from scratch, incorporating features such as pagination, client-side and server-side searching, and advanced UI interactions like sorting.",
+          "price": 29.99,
+          "cover": "/assets/images/the_road_to_react.jpg",
+          "rating": 3.5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 76.97,
+      "quantity": 3,
+      "user": {
+        "name": "test",
+        "email": "test@gmail.com",
+        "id": 1
+      },
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$k4ad4d8DfQIOYy0eM/8L9Oeliqz1xd44.5cV8bXNyYxbHsCaEFk22",
+      "name": "test",
+      "id": 1
+    }
+  ]
+}
