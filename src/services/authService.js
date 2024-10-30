@@ -11,7 +11,7 @@ export async function login(authDetails) {
 	);
 
 	if (!response.ok) {
-		throw { message: response.statusText, status: response.status };
+		throw { message: response.statusText, status: response.status }; //eslint-disable-line
 	}
 
 	const data = await response.json();
@@ -37,7 +37,7 @@ export async function register(authDetails) {
 	);
 
 	if (!response.ok) {
-		throw { message: response.statusText, status: response.status };
+		throw { message: response.statusText, status: response.status }; //eslint-disable-line
 	}
 
 	const data = await response.json();

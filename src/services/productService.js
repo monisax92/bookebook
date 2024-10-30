@@ -6,7 +6,7 @@ export async function getProductsList(searchTerm) {
 	);
 
 	if (!response.ok) {
-		throw { message: response.statusText, status: response.status };
+		throw { message: response.statusText, status: response.status }; //eslint-disable-line
 	}
 
 	const data = await response.json();
@@ -20,7 +20,7 @@ export async function getProduct(id) {
 	);
 
 	if (!response.ok) {
-		throw { message: response.statusText, status: response.status };
+		throw { message: response.statusText, status: response.status }; //eslint-disable-line
 	}
 
 	const data = await response.json();
@@ -34,7 +34,7 @@ export async function getFeaturedProducts() {
 	);
 
 	if (!response.ok) {
-		throw { message: response.statusText, status: response.status };
+		throw { message: response.statusText, status: response.status }; //eslint-disable-line
 	}
 
 	const data = await response.json();
