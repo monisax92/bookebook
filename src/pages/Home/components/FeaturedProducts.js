@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { ProductCard } from '../../../components';
-import { Carousel } from './Carousel';
 import { getFeaturedProducts } from '../../../services';
 
 export const FeaturedProducts = () => {
