@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import EmptyBook from '../assets/empty-book.png';
 import { useTitle } from '../hooks/useTitle';
+import EmptyBook from '../assets/empty-book.png';
 
 export const PageNotFound = () => {
 	useTitle('Page Not Found');
