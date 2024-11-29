@@ -31,6 +31,28 @@ export const LoginPage = () => {
 		}
 	}
 
+	async function handleLoginAsGuest() {
+		email.current.value = 'test@gmail.com';
+		password.current.value = '123123123';
+
+		try {
+			const authDetails = {
+				email: email.current.value,
+				password: password.current.value
+			};
+
+			const data = await login(authDetails);
+			data.accessToken ? navigate('/products') : toast.error(data);
+		} catch (err) {
+			toast.error(`${err.message}`, {
+				closeButton: false,
+				position: 'top-center', // modified to "center-center" in index.css
+				autoClose: 5000,
+				closeOnClick: true
+			});
+		}
+	}
+
 	return (
 		<main>
 			<section className='text-left'>
@@ -77,7 +99,12 @@ export const LoginPage = () => {
 						Log In
 					</button>
 				</form>
-				{/* <button className="mt-3 cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login As Guest</button> */}
+				<button
+					onClick={handleLoginAsGuest}
+					className='mt-3 cursor-pointer text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800'
+				>
+					Login As Guest
+				</button>
 			</section>
 		</main>
 	);
